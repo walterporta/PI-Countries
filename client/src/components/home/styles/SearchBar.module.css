@@ -1,0 +1,28 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .searchBar input[type="text"] {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 3px solid rgba(203, 197, 197, 0.903);
+    border-radius: 0.25rem;
+  }
+  
+  .searchBar button[type="submit"] {
+    background-color: rgba(203, 197, 197, 0.903);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 4px;
+  }
+  

@@ -1,0 +1,31 @@
+.mainContainer{
+    display: grid;
+    grid-template-columns: 350px 350px ;
+    grid-column-gap: 20px;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+
+.button {
+    background-color: rgba(203, 197, 197, 0.903);
+    border: none;
+    color: black;
+    margin-top: 2rem;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+  
+
+
+  .button:hover {
+    background-color: rgba(203, 197, 197, 0.903);
+    opacity: 0.7;
+  }
+

@@ -1,0 +1,123 @@
+body {
+    background-color: #B3B7B7;
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-textura-grunge-patron-hexagonal_1048-12015.jpg?w=826&t=st=1680030864~exp=1680031464~hmac=ca1c2f04adf05be74c50a597da58b6bf86a6974a0bfe63b416010e4050ed0a53');
+    background-size: cover;
+    
+  }
+
+
+
+.containerCountry{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-column-gap: 20px;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+}
+
+link {
+    font-size: 18px;
+    text-decoration: none;
+    outline: none;
+}
+.containerCountry .card{
+    background-color: rgb(71, 75, 71);
+    text-align: center;
+    margin: 2%;
+    padding-top: 4%;
+    border-radius: 4%;
+    box-shadow: 10px 10px 5px -4px rgba(36, 36, 36, 0.81);
+    opacity: 0.7;
+    text-decoration: none;
+    outline: none;
+}
+
+.containerCountry .card:hover {
+    background-color: rgba(203, 197, 197, 0.903);
+    opacity: 0.3;
+    text-decoration: none;
+    outline: none;
+    transition: 0.7s;
+}
+
+.containerCountry a {
+    text-decoration: none;
+  }
+
+img {
+    border: 1px solid lightGrey;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 100px;
+    margin: 5%;
+}
+
+h3 {
+    padding: 1%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+h4 {
+    padding: 1%;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+.filters {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+       
+    
+    
+}
+
+.filter {
+    display: flex;
+    gap: 2rem;
+    
+}
+
+select {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 3px solid rgba(203, 197, 197, 0.903);
+    border-radius: 0.25rem;
+}
+
+  .btnContainer {
+    margin-right: 10px;
+  }
+  
+
+  button {
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+
+}
+
+button:hover{
+    background-color: rgba(203, 197, 197, 0.903);
+    opacity: 0.7;
+    text-decoration: none;
+    outline: none;
+   
+}
+
